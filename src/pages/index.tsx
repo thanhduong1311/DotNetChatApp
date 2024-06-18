@@ -17,7 +17,7 @@ type MessageType = {
 
 export default function Home() {
 
-  var connection = new HubConnectionBuilder().withUrl("https://b773-104-28-227-231.ngrok-free.app/chatHub").build();
+  var connection = new HubConnectionBuilder().withUrl("https://8c87-14-160-176-136.ngrok-free.app/chatHub").build();
 
 const [newMessage, setNewMessage] = useState<MessageType>({user: "",message:"",time:""});
 const [username, setUsername] = useState('');
